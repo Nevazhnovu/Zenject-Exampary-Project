@@ -1,6 +1,11 @@
 using System.Linq;
 using UnityEngine;
 
+public interface IWeapon
+{
+    public void Hit(params object[] args);
+}
+
 public class SwordWeapon : IWeapon
 {
     internal int counter = 0;

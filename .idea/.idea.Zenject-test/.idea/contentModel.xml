@@ -925,12 +925,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="IWeapon.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyPrefabInstaller.cs" t="Include" />
           <e p="SwordWeapon.cs" t="Include" />
           <e p="WeaponConsumer.cs" t="Include" />
         </e>
         <e p="ZenjectObjects" t="Include">
-          <e p="MiniInstaller.cs" t="Include" />
+          <e p="ProjectInstaller.cs" t="Include" />
+          <e p="SceneInstaller.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

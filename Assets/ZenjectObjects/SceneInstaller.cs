@@ -1,13 +1,13 @@
 using UnityEngine;
 using Zenject;
 
-public class MiniInstaller : MonoInstaller<MiniInstaller>
+public class SceneInstaller : MonoInstaller<SceneInstaller>
 {
     public override void InstallBindings()
     {
         // AsTransient() - creates separate instance of object each time it's injected
-        // AsSingle() - exactly the same as AsCached, except that it will sometimes throw exceptions if there already exists a binding for ResultType.
-        // AsCached() - creates instance of object only once then re-using it each time it's injected
+        // AsSingle() - Singleton; almost the same as AsCached, except that it will sometimes throw exceptions if there already exists a binding for ResultType.
+        // AsCached() - creates instance of object for every unique Contract Type then re-using it each time it's injected
         
         Container.
             Bind<IWeapon>().
@@ -16,7 +16,7 @@ public class MiniInstaller : MonoInstaller<MiniInstaller>
             OnInstantiated(LogCallback)
             //OnInstantiated<SwordWeapon>(LogCallback) // causes bug: ZenjectException: Assert hit! Invalid generic argument to OnInstantiated! ValidationMarker must be type SwordWeapon
             //                                         // but works fine in Play mode. I consider it's a Zenject's fault 
-        ;
+            ;
         
         Container.
             Bind<IWeapon>().
@@ -33,6 +33,10 @@ public class MiniInstaller : MonoInstaller<MiniInstaller>
             To<SuperPowerSource>().
             AsSingle().
             OnInstantiated(LogCallback)
+            // TODO:
+            //.WithArguments()
+            //.WhenInjectedInto<>()
+            // Construction methods: FromNew (default), FromInstance, FromFactory
             ;
     }
 

@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f595f0-8323-4fd7-b54a-2bfc068117fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/MyEnemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8805DF07-97D0-49F6-BAB8-1BD3776A1A2C/ce/6583c16e/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -43,10 +45,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IBooba.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ConcreteBooba.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/ZenjectObjects/MiniInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Resources/ProjectInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2B7BW52TQ0sX9mbG1eKpbaCi2lj" />
@@ -96,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656247343936</updated>
       <workItem from="1656247344318" duration="2000" />
-      <workItem from="1656254414731" duration="16879000" />
+      <workItem from="1656254414731" duration="23177000" />
     </task>
     <servers />
   </component>
