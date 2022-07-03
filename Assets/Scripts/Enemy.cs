@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(Hit());
     }
     
-    [Inject(Id = "EnemyWeapon")] public void InjectDependencies(IWeapon weapon, SignalBus signalBus)
+    [Inject] public void InjectDependencies(/*[Inject(Id = "EnemyWeapon")]*/ IWeapon weapon, SignalBus signalBus)
     {
         this.weapon = weapon ?? throw new System.ArgumentNullException(nameof(weapon));
         this.signalBus = signalBus;

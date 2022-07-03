@@ -54,6 +54,6 @@ public class WeaponConsumer : MonoBehaviour
 
     public void SignalReceived(PlayerHitSignal signal)
     {
-        Debug.Log($"Oh no i'm hit with {signal.weapon}, {signal.hp} lost. Argh!");
+        Debug.Log($"Oh no I'm hit with {signal.weapon}, {signal.hp} hp lost. Argh!");
     }
 }

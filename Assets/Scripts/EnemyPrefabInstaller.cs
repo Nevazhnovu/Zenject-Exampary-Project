@@ -15,10 +15,10 @@ public class EnemyPrefabInstaller : MonoInstaller<EnemyPrefabInstaller>
         //     ;
         
         Container.
-            Bind<IWeapon>().
-            To<SwordWeapon>().
-            AsTransient().
-            WithConcreteId("EnemyWeapon")
+            Bind<IWeapon>()
+            .To<SwordWeapon>()
+            .AsTransient()
+            // .WithConcreteId("EnemyWeapon")
             ;
     }
 }

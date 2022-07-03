@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f595f0-8323-4fd7-b54a-2bfc068117fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHitSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/MyEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/MyEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,13 @@
       <option value="$PROJECT_DIR$/Assets/Resources/ProjectInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SwordWeapon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SwordHitSignal.cs" />
-      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHitSignal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPrefabInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WeaponConsumer.cs" />
+      <option value="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2B7BW52TQ0sX9mbG1eKpbaCi2lj" />
@@ -99,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656247343936</updated>
       <workItem from="1656247344318" duration="2000" />
-      <workItem from="1656254414731" duration="26150000" />
+      <workItem from="1656254414731" duration="29565000" />
     </task>
     <servers />
   </component>
@@ -128,26 +130,13 @@
           <line>28</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" initialLine="28" containingFunctionPresentation="method 'Hit'">
             <startOffsets>
-              <option value="819" />
+              <option value="832" />
             </startOffsets>
             <endOffsets>
-              <option value="892" />
+              <option value="905" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" initialLine="23" containingFunctionPresentation="lambda expression inside method 'InstallBindings'">
-            <startOffsets>
-              <option value="708" />
-            </startOffsets>
-            <endOffsets>
-              <option value="777" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs</url>

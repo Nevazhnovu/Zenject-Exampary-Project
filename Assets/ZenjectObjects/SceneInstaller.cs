@@ -38,6 +38,12 @@ public class SceneInstaller : MonoInstaller<SceneInstaller>
             //.WhenInjectedInto<>()
             // Construction methods: FromNew (default), FromInstance, FromFactory
             ;
+        
+        //signals
+        Container.BindSignal<PlayerHitSignal>()
+            .ToMethod<WeaponConsumer>(wc => wc.SignalReceived)
+            // .FromNew(); //the handler classes is not accessed anywhere else in the container
+            .FromResolve();
     }
 
     private void LogCallback(InjectContext arg1, object arg2)
