@@ -927,6 +927,7 @@
         <e p="Scripts" t="Include">
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyPrefabInstaller.cs" t="Include" />
+          <e p="PlayerHitSignal.cs" t="Include" />
           <e p="SwordWeapon.cs" t="Include" />
           <e p="WeaponConsumer.cs" t="Include" />
         </e>

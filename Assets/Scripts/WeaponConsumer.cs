@@ -51,4 +51,9 @@ public class WeaponConsumer : MonoBehaviour
         secondaryWeapon.Hit("You lost 100 HP");
         superpower.Hit("You used 100 mana from common pool.");
     }
+
+    public void SignalReceived(PlayerHitSignal signal)
+    {
+        Debug.Log($"Oh no i'm hit with {signal.weapon}, {signal.hp} lost. Argh!");
+    }
 }

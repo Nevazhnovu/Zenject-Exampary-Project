@@ -16,6 +16,15 @@ public class NotMonoInstaller : Installer<NotMonoInstaller>
     public override void InstallBindings()
     {
         Container.BindInterfacesAndSelfTo<WannabeMonoBehaviour>().AsSingle();
+
+        //signals
+        SignalBusInstaller.Install(Container);
+        Container.DeclareSignal<PlayerHitSignal>();
+        Container.BindSignal<PlayerHitSignal>().
+            ToMethod(s => Debug.Log($"PlayerHitSignal fired! {s.weapon} used, {s.hp} affected"));
+        Container.BindSignal<PlayerHitSignal>()
+            .ToMethod<WeaponConsumer>(wc => wc.SignalReceived)
+            .FromNew(); //the handler classes is not accessed anywhere else in the container
     }
 }
 
