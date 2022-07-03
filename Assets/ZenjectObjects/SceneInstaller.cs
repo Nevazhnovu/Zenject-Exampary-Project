@@ -3,6 +3,8 @@ using Zenject;
 
 public class SceneInstaller : MonoInstaller<SceneInstaller>
 {
+    [SerializeField] GameObject enemyPrefab;
+
     public override void InstallBindings()
     {
         // AsTransient() - creates separate instance of object each time it's injected
@@ -44,6 +46,9 @@ public class SceneInstaller : MonoInstaller<SceneInstaller>
             .ToMethod<WeaponConsumer>(wc => wc.SignalReceived)
             // .FromNew(); //the handler classes is not accessed anywhere else in the container
             .FromResolveAll();
+        
+        Debug.Log("Creating 1 Enemy from prefab...");
+        Container.InstantiatePrefab(enemyPrefab);
     }
 
     private void LogCallback(InjectContext arg1, object arg2)
