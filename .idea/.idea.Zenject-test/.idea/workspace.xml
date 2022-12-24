@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04f595f0-8323-4fd7-b54a-2bfc068117fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zenject-test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/ProjectInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZenjectObjects/SceneInstaller.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656247343936</updated>
       <workItem from="1656247344318" duration="2000" />
-      <workItem from="1656254414731" duration="30608000" />
+      <workItem from="1656254414731" duration="31345000" />
     </task>
     <servers />
   </component>
